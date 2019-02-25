@@ -63,6 +63,12 @@ ul.navbar li {
 	transition: color 0.2s;
 }
 
+.nav-item2 {
+	display: inline-block;
+	color: red;
+	transition: color 0.2s;
+}
+
 .nav-item:hover {
 	color: #9282a0;
 }
@@ -70,8 +76,13 @@ ul.navbar li {
 .banner {
 	background-color: #14aec1;
 	color: white;
-	padding: 100px;
-	padding-left: 80px;
+	
+	/*padding: 20px;*/
+	padding-left: 200px;
+	padding-right: 200px;
+	padding-top: 50px;
+	/*padding: 100px;*/
+	/*padding-left: 80px;*/
 }
 
 .subtitle {
@@ -138,8 +149,9 @@ ul.navbar li {
 /*	padding-bottom: 160px;*/
 	background-color: #ebebeb;
 
-
-	height: 500px;
+	/*height: 500px;*/
+	height: auto;
+	/*margin-bottom: 150px;*/
 }
 
 /*.text h3 {
@@ -160,8 +172,27 @@ ul.navbar li {
 
 .des1, .des2
 {
-	display: inline-block;
+	/*margin:50px;*/
+	display: inline-table;
+	/*display: inline-block;*/
 }
+
+.des3
+{
+	margin: 40px;
+	/*margin: 0 auto;*/
+	/*display: inline-table;*/
+	/*display: flex;*/
+	width: 800px;
+	/*display: inline-block;*/
+}
+
+.des3 p
+{
+	display: inline-block;
+	margin: 10px;
+}
+
 .Lorem
 {
 	font-size: 14pt;
@@ -171,7 +202,7 @@ ul.navbar li {
 {
 	width: 40%;
 	margin-left: 40px;
-	margin-top: 50px;
+	/*margin-top: 50px;*/
 
 }
 
@@ -187,7 +218,16 @@ ul.navbar li {
 	min-width: 380px;
 }
 
-
+.img_container2
+{
+    margin: 0 auto;
+	display: flex;
+	height: 230px;
+	width: 230px;
+	overflow: hidden;
+	/*text-align: -webkit-center;*/
+	/*line-height: 0;*/
+}
 
 .img_container
 {
@@ -204,6 +244,16 @@ ul.navbar li {
 {
 	width: 100%;
 	height: inherit;
+}
+
+.text_logo2
+{
+	font-size: 30pt;
+	color: #088ca5;
+	position: relative;
+	top: 10%;
+/*	padding: 80px;
+	padding-top: 40px;*/
 }
 
 .text_logo
